@@ -56,6 +56,7 @@ public class Main {
         Vin vin18 = new Vin("Château Guiraud", 2003, sauvignon, rouge,16.90);
         Vin vin19 = new Vin("Château Coutet", 2017, sauvignon, rouge,22.74);
         Vin vin20 = new Vin("Château Suduiraut", 2007, sauvignon, rouge, 8.63);
+        Vin vin21 = new Vin("Château Suduiraut", 2000, sauvignon, rouge, 8.63);
 
         // Les bouteilles
         Bouteille b1 = new Bouteille(1, 125, vin1);
@@ -78,6 +79,7 @@ public class Main {
         Bouteille b18 = new Bouteille(18, 71, vin18);
         Bouteille b19 = new Bouteille(19, 37, vin19);
         Bouteille b20 = new Bouteille(20, 92, vin20);
+        Bouteille b21 = new Bouteille(23, 54, vin21);
         
         ArrayList<Bouteille> mesBouteilles = new ArrayList();
         
